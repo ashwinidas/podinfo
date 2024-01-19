@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: podinfod
-        image: ghcr.io/stefanprodan/podinfo:6.5.4
+        image: gcr.io/us-central1-docker.pkg.dev/keen-electron-404609/demo/podinfo:2.0
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
